@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Filmes e Séries</title>
+    <link rel="stylesheet" href="./main.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portal de Filmes e Séries</h1>
+            <nav>
+                <ul>
+                    <li><a href="#movies" title="Ir para a seção de filmes">Filmes</a></li>
+                    <li><a href="#series" title="Ir para a seção de séries">Séries</a></li>
+                    <li><a href="#contact" title="Ir para a seção de contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="movies">
+        <div class="container">
+            <h2>Filmes</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/filmes/300.jpg" alt="300" />
+                    <header>
+                        <time class="creation-date">13/08/2024</time>
+                    </header>
+                    <h3>Filme em Cartaz: 300</h3>
+                    <p>
+                        "300" retrata a histórica Batalha das Termópilas, onde o Rei Leônidas e seus 300 espartanos enfrentam o vasto exército persa de Xerxes. Com cenas épicas de combate e uma cinematografia estilizada, este filme é um espetáculo visual de coragem e sacrifício.
+                    </p>
+                </article>
+                <article>
+                    <img src="./imagens/filmes/deadpool.png" alt="Deadpool" />
+                    <header>
+                        <time class="creation-date">13/08/2024</time>
+                    </header>
+                    <h3>Filme em Cartaz: Deadpool</h3>
+                    <p>
+                        "Deadpool" traz o anti-herói mais irreverente da Marvel em uma jornada cheia de humor ácido, ação desenfreada e quebras da quarta parede. Wade Wilson, um ex-militar com habilidades regenerativas, busca vingança contra aqueles que o transformaram em um super-herói de língua afiada.
+                    </p>
+                </article>
+                <article>
+                    <img src="./imagens/filmes/exorcismo.jpg" alt="O Exorcismo de Emily Rose" />
+                    <header>
+                        <time class="creation-date">13/08/2024</time>
+                    </header>
+                    <h3>Filme em Cartaz: O Exorcismo de Emily Rose</h3>
+                    <p>
+                        Baseado em uma história real, "O Exorcismo de Emily Rose" mistura terror e drama de tribunal ao narrar o controverso caso de uma jovem supostamente possuída por demônios. Um filme que explora os limites da fé, ciência e justiça.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <section id="series">
+        <div class="container">
+            <h2>Séries</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/series/supernatural.jpg" alt="Supernatural" />
+                    <header>
+                        <time>14/08/2024</time>
+                    </header>
+                    <h3>Série em Destaque: Supernatural</h3>
+                    <p>
+                        Acompanhe os irmãos Winchester em sua jornada para caçar demônios, fantasmas, monstros e outras criaturas sobrenaturais. Uma série de longa duração que mistura terror, ação e momentos emocionantes, criando um universo complexo e cativante.
+                    </p>
+                </article>
+                <article>
+                    <img src="./imagens/series/strangerThings.jpg" alt="Stranger Things" />
+                    <header>
+                        <time>14/08/2024</time>
+                    </header>
+                    <h3>Série em Destaque: Stranger Things</h3>
+                    <p>
+                        Situada na década de 1980, "Stranger Things" combina elementos de ficção científica, terror e nostalgia. A série acompanha um grupo de crianças e adolescentes que descobrem um mundo paralelo, o 'Mundo Invertido', enquanto enfrentam criaturas monstruosas e uma conspiração governamental.
+                    </p>
+                </article>
+                <article>
+                    <img src="./imagens/series/game.jpg" alt="Game of Thrones" />
+                    <header>
+                        <time>14/08/2024</time>
+                    </header>
+                    <h3>Série em Destaque: Game of Thrones</h3>
+                    <p>
+                        Baseada na série de livros "As Crônicas de Gelo e Fogo" de George R.R. Martin, "Game of Thrones" é uma saga épica que retrata a luta pelo poder entre as famílias nobres dos Sete Reinos de Westeros. Com intrigas políticas, batalhas épicas e personagens complexos, a série se tornou um fenômeno mundial.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea placeholder="Sua mensagem" required resize: none;></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
